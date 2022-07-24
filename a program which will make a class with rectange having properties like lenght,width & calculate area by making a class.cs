@@ -1,4 +1,5 @@
-﻿class Rectangle
+﻿/*a program which will make a class with rectange having properties like lenght,width & calculate area by making a class*/
+class Rectangle
 {
     private int Length;
     private int Width;
