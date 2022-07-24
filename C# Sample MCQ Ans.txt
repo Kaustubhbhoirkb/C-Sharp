@@ -1,0 +1,43 @@
+1) 
+
+	static void Main(string[] args)
+ {
+     int i = 30;
+     int j = 25 % 25;
+     if (Convert.ToBoolean(Convert.ToInt32(i = j)))
+     {
+         Console.WriteLine("In if");
+     }
+     else
+     {
+         Console.WriteLine("In else");
+     }
+     Console.WriteLine("In main");
+     Console.ReadLine();
+ }
+
+Ans- In Else
+     In Main
+
+2)
+
+	static void Main(string[] args)
+ {
+     int i;
+     int b = 8, a = 32;
+     for (i = 0; i <= 10; i++)
+     {
+         if ((a / b * 2)== 2)
+         {
+             Console.WriteLine( i + " ");
+             continue;
+         }
+         else if (i != 4)
+             Console.Write(i + " ");
+         else
+             break;
+    }
+    Console.ReadLine();
+ }
+
+Ans:- 0 1 2 3
